@@ -1,13 +1,15 @@
 
  for (let i = 1; i <=100; i++){
+    let numString=i;
+
      if (i % 3==0 && i % 5==0){
-        console.log('FizzBuzz')
+        numString='FizzBuzz'
      }else if(i%3==0){ 
-        console.log('Fizz')
+        numString='Fizz'
      }else if(i%5==0){
-         console.log('Buzz')
+        numString='Buzz'
      }
-         console.log (i)
+         console.log (numString);
      }
     
     const eleSquares = document.querySelector('.squares');
